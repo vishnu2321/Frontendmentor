@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 17px;
+}
+
+label{
+    text-align: left;
+}
+
+a:first-child{
+    padding-left: 2%;
+}
+
+.sign{
+    float: right;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./images/home_background.jpg');
+    background-position: left center;
+    background-attachment: fixed;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+._form{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-radius: 13%;
+}
+
+.submit{
+    padding: 30px;
+    border-radius: 50%;
+    border: none;
+}
