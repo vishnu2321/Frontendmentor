@@ -56,7 +56,7 @@ class S3
 	 * @access private
 	 * @static
 	 */
-	private static $__accessKey = 'AKIAIYYRVGF4KE4YNIMQ';
+	private static $__accessKey = '';
 
 	/**
 	 * AWS Secret Key
@@ -65,7 +65,7 @@ class S3
 	 * @access private
 	 * @static
 	 */
-	private static $__secretKey = 'LE32hjzEtB8My4WNok+bWwd/Wwc07cuj5Zmh9bQl';
+	private static $__secretKey = '';
 
 	/**
 	 * SSL Client key
